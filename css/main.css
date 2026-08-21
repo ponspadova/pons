@@ -244,6 +244,7 @@ a:hover{
 
 .dropdown {
     position: relative;
+    visibility: hidden;
 }
 
 .dropdown-content {
