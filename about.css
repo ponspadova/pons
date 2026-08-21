@@ -1,0 +1,95 @@
+/* about page layout */
+.page-content {
+	width: min(94%, 1100px);
+	margin: 64px auto;
+	text-align: left;
+}
+
+/* book-style paragraph formatting */
+.page-content p {
+	text-indent: 2em;
+	line-height: 1.7;
+	margin: 0 0 1.25em;
+}
+
+main{
+    display:flex;
+    flex-direction: row;
+	gap: 48px;
+	align-items: stretch;
+}
+
+main > div {
+	flex: 1 1 0;
+	min-width: 0;
+}
+
+.mission-column {
+	display: flex;
+	flex-direction: column;
+	gap: 32px;
+}
+
+#mission {
+	flex: 1;
+}
+
+#contacts {
+	padding: 0 32px;
+}
+
+#contacts li a {
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+}
+
+#contacts li:first-of-type img {
+	width: 20px;
+	height: 20px;
+	object-fit: contain;
+	flex: 0 0 20px;
+}
+
+#contacts  li:nth-of-type(2) img {
+	width: 30px;
+	height: 40px;
+    object-fit: contain;
+	position: relative;
+	left: -4px;
+    
+}
+
+
+#mission {
+	position: relative;
+	padding: 32px;
+	background-color: #c4baff;
+	border-radius: 12px;
+	overflow: hidden;
+}
+
+#mission::before {
+	content: "";
+	position: absolute;
+	inset: 0;
+	background-image: url("psico2.jpg");
+	background-size: cover;
+	background-position: center;
+	opacity: 0.25;
+	transition: opacity 300ms ease;
+}
+
+#mission:hover::before {
+	opacity: 0.08;
+}
+
+#mission > * {
+	position: relative;
+	z-index: 1;
+}
+
+#instagram-handle{
+    position:relative;
+    left:8px;
+}

@@ -1,0 +1,14 @@
+/* Invited speakers page layout */
+.speakers-content {
+    width: min(90%, 1000px);
+    margin: 64px auto;
+    text-align: center;
+}
+
+.coming-soon {
+    margin: 48px 0;
+    color: #6367FF;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+}
