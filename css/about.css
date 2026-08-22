@@ -93,3 +93,22 @@ main > div {
     position:relative;
     left:8px;
 }
+
+@media (max-width: 600px) {
+    .page-content {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    #about-us,
+    #mission,
+    #contacts {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .mission-column {
+        display: contents;
+    }
+}
