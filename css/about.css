@@ -73,7 +73,7 @@ main > div {
 	content: "";
 	position: absolute;
 	inset: 0;
-	background-image: url("images/psico2.jpg");
+	background-image: url("main/images/psico2.jpg");
 	background-size: cover;
 	background-position: center;
 	opacity: 0.25;
