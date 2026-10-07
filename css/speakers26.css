@@ -60,7 +60,7 @@
 .participant-image {
 	width: 112px;
 	height: 112px;
-	display: block;
+	display: hidden;
 	object-fit: cover;
 	border-radius: 8px;
 }
