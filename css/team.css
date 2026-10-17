@@ -30,15 +30,14 @@
 }
 
 .team-avatar {
-    display: grid;
-    place-items: center;
-    width: 56px;
-    height: 56px;
+    display: block;
+    width: 112px;
+    height: 112px;
     margin: 0 auto 16px;
-    color: #ffffff;
-    background-color: #6367FF;
     border-radius: 50%;
-    font-weight: 700;
+    background-color: #e8e9ff;
+    object-fit: cover;
+    box-shadow: 0 4px 14px rgba(47, 49, 115, 0.16);
 }
 
 .team-card h2,
